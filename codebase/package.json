@@ -14,17 +14,17 @@
   "dependencies": {
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.49.4",
+    "canvas": "^2.11.3",
     "framer-motion": "^12.12.1",
     "lucide-react": "^0.511.0",
     "mind-ar": "^1.2.5",
-    "next": "^15.3.4",               // ✅ patched Next.js version
+    "next": "^15.3.4",
     "qrcode": "^1.5.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "recharts": "^3.0.0",            // ✅ upgrade to v3 (supported)
+    "recharts": "^3.0.0",
     "three": "^0.176.0",
-    "zod": "^3.25.42",
-    "canvas": "^2.11.3"              // ✅ upgrade canvas to latest (supports Node 24)
+    "zod": "^3.25.42"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
@@ -33,7 +33,7 @@
     "@types/react-dom": "^19.1.5",
     "@types/three": "^0.176.0",
     "eslint": "^9.28.0",
-    "eslint-config-next": "^15.3.4", // ✅ match Next.js version
+    "eslint-config-next": "^15.3.4",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3"
